@@ -1,0 +1,28 @@
+{
+  "name": "reversi_new",
+  "version": "0.0.1",
+  "description": "This is a test game app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asnaniseema/REVERSI_Seema.git"
+  },
+  "keywords": [
+    "yuvi",
+    "Seema"
+  ],
+  "author": "Seema",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/asnaniseema/REVERSI_Seema/issues"
+  },
+  "homepage": "https://github.com/asnaniseema/REVERSI_Seema#readme",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "socket.io": "^4.0.2"
+  }
+}
