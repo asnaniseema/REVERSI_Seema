@@ -2,11 +2,11 @@
 
 /**  Set up the static files server **/
 
-let static = require( 'node-static' );
+let static = require('node-static');
 
 /*** Set up the http server library **/
 
-let http = require( 'http' );
+let http = require('http');
 
 /***  Assume that we are running on Heroku  **/
 
