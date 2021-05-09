@@ -1,0 +1,28 @@
+{
+  "name": "0.0.1",
+  "version": "1.0.0",
+  "description": "This is a test project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asnaniseema/REVERSI_Seema.git"
+  },
+  "keywords": [
+    "keyword",
+    "yuvi",
+    "seems"
+  ],
+  "author": "Seema Asanani",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/asnaniseema/REVERSI_Seema/issues"
+  },
+  "homepage": "https://github.com/asnaniseema/REVERSI_Seema#readme",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "socket.io": "^4.0.2"
+  }
+}
