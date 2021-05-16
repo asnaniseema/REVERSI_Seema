@@ -39,4 +39,4 @@ let app = http.createServer(
 	}
 ).listen(port);
 
-//console.log('The server is running');
+console.log('The server is running');
