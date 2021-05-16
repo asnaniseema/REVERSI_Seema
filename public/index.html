@@ -3,22 +3,54 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <style>
+    body{
+      background-color:darkseagreen;
+    }
+  </style>
+  <script>
+    function goToLobby(){
+      let username = $('#nameInput').val();
+      window.location.href = 'lobby.html?username='+username;
+    }
+  </script>
+    <title>Reversi</title>
   </head>
   <body>
-    <h1>Hello, I am Seema Asnani.</h1>
-
-    <h3>The App is working</h3>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <div class="container-fluid">
+  <div class="row m-3">
+    <div class="col text-center">
+      <a class="btn btn-success text-nowrap" href="about.html">About</a>
+    </div>
+    <div class="col text-center">
+      <a class="btn btn-success text-nowrap" href="https://en.wikipedia.org/wiki/Reversi">Rules</a>
+    </div>
+  </div>
+  <div class="row m-3">
+    <div class="col text-center">
+      <img src="assets/images/top-splash.png" alt="Reversi Logo 1" />
+    </div>
+  </div>  
+  <div class="row align-items-center justify-content-center m-3">
+    <div class="col-8">
+      <div class="input-group">
+        <span class="input-group-text" id="displayName">Name</span>
+        <input type="text" class="form-control text-nowrap" id="nameInput" placeholder="Choose you display name" aria-label="Enter your display name for use while playing Reversi" aria-describedby="displayName"/>
+        <button type="submit" class="btn btn-primary text-nowrap" id="lobbyButton" onclick="goToLobby()">Enter Lobby</button>
+      </div>
+    </div>
+  </div>  
+  <div class="row m-3">
+    <div class="col text-center">
+      <img src="assets/images/bottom-splash.png" alt="Reversi Logo 1" />
+    </div>
+  </div>  
+  </div>
+   <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
   </body>
 </html>
