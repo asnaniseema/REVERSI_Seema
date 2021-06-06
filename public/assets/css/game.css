@@ -3,6 +3,10 @@ body{
 }
 .headerrow,#messagePane{
 	background-color:rgba(224,243,224);
+			-webkit-box-shadow: 1px 1px 11px 1px #A1A7D1;
+			box-shadow: 1px 1px 11px 1px #A1A7D1;
+			border:1px solid #555;
+			color:blue;
 }
 .join_room_response,
 .left_room_response{
@@ -25,4 +29,8 @@ table#game_board td{
 
 td.hovered_over:hover{
 	background-image:url('/assets/images/hover.gif');
+}
+#game_board{
+	-webkit-box-shadow: 1px 1px 11px 2px #000000;
+box-shadow: 1px 1px 11px 2px #000000;
 }
